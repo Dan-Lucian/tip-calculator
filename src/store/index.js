@@ -4,7 +4,7 @@ import tipPercentageReducer from './tip-percentage/reducer';
 
 const reducer = combineReducers({
   items: itemsReducer,
-  tipPercentage: tipPercentageReducer
+  tipPercentage: tipPercentageReducer,
 });
 
 export const store = createStore(

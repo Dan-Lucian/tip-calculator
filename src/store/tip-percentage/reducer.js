@@ -1,3 +1,4 @@
+/* eslint-disable default-param-last */
 import { TIP_PERCENTAGE_UPDATED } from './actions';
 
 export const initialTipPercentage = 20;
